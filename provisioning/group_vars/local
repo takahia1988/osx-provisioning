@@ -1,47 +1,55 @@
-homebrew_repositories: []
+homebrew_repositories: 
+  - fisherman/tap
 
 homebrew_packages:
-  - ag
   - autojump
-  - macvim
-  - node
-  - peco
+  - grep
+  - fish
+  - fzf
+  - pyenv
+  - rbenv
   - tig
-  - tmux
   - tree
   - vim
-  - zsh
-  - zsh-completions
-  - zsh-syntax-highlighting
   - go
   - mas
+  - carthage
+  - fabric
+
+homebrew_fisherman_packages:
+  - fisherman
 
 homebrew_cask_packages:
   - 1password
   - alfred
   - bettertouchtool
   - caffeine
+  - charles
   - dash
   - dropbox
-  - gas-mask
+  - evernote
+  - gimp
   - google-chrome
   - google-japanese-ime
   - intellij-idea
   - iterm2
-  - karabiner
-  - kindle
   - music-manager
+  - near-lock
   - sequel-pro
-  - skitch
+  - sketch
   - skype
+  - evernote
   - slack
   - vagrant
   - virtualbox
+  - fastlane
+  - atom
 
 mas_applications:
-  - {name: 'Slack', store_hash: 803453959}
+  - {name: 'MARKETSPEED', store_hash: 946680495}
+  - {name: 'TweetDeck', store_hash: 485812721}
+  - {name: 'Line', store_hash: 539883307}
   - {name: 'CCMenu', store_hash: 603117688}
   - {name: 'Apple Configurator 2', store_hash: 1037126344}
-
     
 # vim:ft=ansible:

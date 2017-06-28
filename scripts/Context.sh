@@ -10,6 +10,6 @@ function print_context() {
   echo =======================
 }
 
-function tag_echo () {
+function tag_echo() {
   echo [$1] $2
 }

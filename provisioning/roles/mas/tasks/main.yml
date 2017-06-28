@@ -5,12 +5,12 @@
 
 - name: signin to mas
   shell: >
-    mas signin {{appstore_id}} "{{appstore_password}}"
+    mas signin --dialog "{{ appstore_id }}"
 
 - name: install applications
   shell: >
-    mas install {{item.store_hash}}
-  with_items: mas_applications
+    mas install "{{ item.store_hash }}"
+  with_items: "{{ mas_applications }}"
   when: mas_applications
   run_once: true
 
