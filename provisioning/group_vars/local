@@ -3,6 +3,7 @@ homebrew_repositories:
 
 homebrew_packages:
   - autojump
+  - openssl
   - grep
   - fish
   - fzf
@@ -15,6 +16,19 @@ homebrew_packages:
   - mas
   - carthage
   - fabric
+  - knqyf263/pet/pet
+  - peco
+  - nginx
+  - phantomjs
+  - docker
+  - pyenv-virtualenv
+  - pyenv-virtualenvwrapper
+  - xz
+  - redis
+  - s3cmd
+  - pv
+  - coreutils
+  - rabbitmq
 
 homebrew_fisherman_packages:
   - fisherman
@@ -33,8 +47,6 @@ homebrew_cask_packages:
   - google-japanese-ime
   - intellij-idea
   - iterm2
-  - music-manager
-  - near-lock
   - sequel-pro
   - sketch
   - skype
@@ -42,14 +54,18 @@ homebrew_cask_packages:
   - slack
   - vagrant
   - virtualbox
+  - vivaldi
   - fastlane
   - atom
+  - java
+  - android-studio
+  - docker
+  - firefox
 
 mas_applications:
   - {name: 'MARKETSPEED', store_hash: 946680495}
   - {name: 'TweetDeck', store_hash: 485812721}
   - {name: 'Line', store_hash: 539883307}
   - {name: 'CCMenu', store_hash: 603117688}
-  - {name: 'Apple Configurator 2', store_hash: 1037126344}
     
 # vim:ft=ansible:
