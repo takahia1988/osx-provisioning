@@ -12,7 +12,7 @@ setup: check.xcode
 
 .PHONY: provision
 provision: check.xcode
-	/usr/local/bin/python $(SCRIPT_DIR)/play_ansible.py
+	python $(SCRIPT_DIR)/play_ansible.py
 	@$(SCRIPT_DIR)/NotifyFinished.sh
 
 .PHONY: check.xcode
